@@ -2,6 +2,11 @@
 
 The project contains songs from Spotify Open API, custom song uploads, marking songs as favorites, and adding songs to playlists.
 
+# Technologies used
+- Reactjs
+- Nodejs/ExpressJs
+- MySql
+
 ## Features
 
 - **Spotify Integration**: Browse songs from the Spotify Open API.
