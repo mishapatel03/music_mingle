@@ -1,0 +1,278 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar-custom {
+  background-color: #1c0b02;
+}
+
+.modal-content {
+  background: #f8edf1
+}
+
+.bg-common-light {
+  background: #f8edf1
+}
+
+.color-common {
+  color: #e7d6c8
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ml-4 {
+  margin-left: 40px;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
+
+.width-35 {
+  width: 35%;
+}
+
+.form-label {
+  font-style: bold !important;
+}
+
+.btn-main {
+  background-color: #551503 !important;
+  color: white;
+}
+
+.btn-main:hover {
+  color: white;
+}
+
+.action-btn {
+  border: 0;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
+  background-color: transparent;
+}
+
+.action-btn.action-btn-big {
+  font-size: 30px;
+  outline: none;
+}
+
+.border-round {
+  border-radius: 50%;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.progress-container {
+  background-color: #090909;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+/* styling the actual progress bar and making it flow along with the song*/
+.progress {
+  background: #f1753f;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+.footer-main {
+  background-color: #f1eef6e0;
+  border-top: 1px solid #E7E7E7;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  min-height: 60px;
+  width: 100%;
+}
+
+.card-body {
+  background-color: #f8edf1 !important;
+}
+
+.text-elipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container-p {
+  /* height: 100vh;
+  overflow: scroll; */
+}
+
+
+/* new style*/
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-right: 750px;
+}
+
+.song-name {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.sidebar {
+  background-color: #1c0b02;
+  color: white;
+  padding-top: 30px;
+  padding-left: 20px;
+  height: 100vh;
+}
+
+.home-items {
+  height: 100vh;
+  max-height: 100vh;
+  overflow: scroll;
+  margin-bottom: 30px;
+}
+
+.sidebar div.active {
+  font-weight: bold;
+  color: #e1743b;
+}
+
+.outer-lay {
+  width: 100%;
+  max-width: 95%;
+}
+
+.sidebar-common {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.custom-btn {
+  background-color: #ddd6ec;
+}
+
+.song-form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.song-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.bg-trans-ppl {
+  background-color: rgb(224 213 232 / 50%);
+}
+
+.modal-playlist {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content-playlist {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 50%;
+}
+
+.modal-header-playlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.playlist-header {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.playlist-name {
+  flex-grow: 1;
+  text-align: center;
+}
